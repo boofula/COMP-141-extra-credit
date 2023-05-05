@@ -1,1 +1,37 @@
 #!/bin/bash
+
+mkdir output
+
+mv textfile-ec.txt output
+
+source cd output
+
+cat textfile-ec.txt > read.txt
+
+pwd > pwd.txt
+
+ls > ls.txt
+
+cp textfile-ec.txt copy.txt
+
+alias today="date"
+
+today > date.txt
+
+wc textfile-ec.txt > textcount.txt
+
+process.txt > head -n 5 ps
+
+netstat.txt > head -n 5 ifconfig
+
+mount.txt > head -n 5 mount
+
+> permissions.txt
+
+chmod 777 permisions.txt
+
+alias test='TESTENV1'
+
+grep -h '^...$' textfile-ec.txt
+
+cd ..
